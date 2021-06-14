@@ -7,7 +7,8 @@ body{
 h1{
     margin: 0;
     margin-bottom: 15px;
-    color: #ababab;
+    color: rgb(72 110 136);
+   
 }
 .todoapp_container{
     width: 350px;
@@ -19,33 +20,48 @@ h1{
 
 }
 .input_section{
-    background-color: #ececec;
+    background-color: rgb(32, 83, 117);
     padding: 18px;
     border-radius: 12px;
+    box-shadow: 0 5px 10px #00000061;
+    
+     
 }
 .input_section input{
-    background-color: #f0f0f0;
+    background-color: rgb(32, 83, 117);
     border-radius: 5px;
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(32, 83, 117);
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    color: rgb(72 110 136);
+    outline: none;
+    
 }
 ul{
    text-align: left;
    padding: 0;
-   
+  
     
 }
 ul li{
     list-style: none;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(32, 83, 117);
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: rgb(32, 83, 117);
+    color: rgb(72 110 136);
+    box-shadow: 0 5px 10px #00000061;
+    display: flex;
+   
+    
    
 }
 input::placeholder{
-    color: rgb(32, 83, 117);
+    color: rgb(72 110 136);
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
 }
