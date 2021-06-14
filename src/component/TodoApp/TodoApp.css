@@ -12,10 +12,8 @@ h1{
 }
 .todoapp_container{
     width: 350px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    margin: auto;
+   margin-top: 30px;
     text-align: center;
 
 }
@@ -64,4 +62,5 @@ input::placeholder{
 ul li i{
     text-align: right;
     flex: 1;
+    cursor: pointer;
 }
